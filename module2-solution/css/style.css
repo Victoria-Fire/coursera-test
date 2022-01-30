@@ -1,0 +1,93 @@
+* {
+	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+.container {
+  position: relative;
+  margin-top: 10px;
+}
+
+.row {
+  width: 100%;
+}
+
+.element {
+  position: relative;
+  margin: 15px;
+  padding: 35px 10px 10px 10px;
+  background-color: #808080;
+  border: 2px solid #000000;
+}
+
+.element-title {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 35px;
+  padding-left: 35px;
+  border-left: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+
+}
+
+.element > p {
+  font-family: cursive;
+  font-size: 15px;
+}
+
+.element-title > p {
+  text-align: center;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#chiken {
+  background-color: #F08080;
+}
+
+#beef {
+  color: #FFFFFF;
+  background-color: #DC143C;
+}
+
+#sushi {
+  background-color: #EEE8AA;
+}
+
+/*---desktop version---*/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    width: 33.33%;
+  }
+}
+
+/*---tablet version---*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    float: left;
+    width: 50%;
+  }
+  .col-md-12 {
+    float: left;
+    width: 100%;
+  }
+}
+
+/*---mobile version---*/
+@media (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+    width: 100%;
+  }
+}
