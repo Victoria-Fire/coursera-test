@@ -1,6 +1,74 @@
 body {
 	font-size: 16px;
 	color: #fff;
-	background-color: #61122f;
+	background-color: #FF4500;
 	font-family: 'Oxygen', sans-serif;
+}
+#header-nav {
+  background-color: #0000FF;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  padding-top: 10px;
+}
+.navbar-brand h1 {
+  font-family: 'Lora', serif;
+  color: #FFFF00;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #FFFF00;
+  font-weight: bold;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #FA8072;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+#nav-list a {
+	background-color: #800000;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #FFFF00;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+#main-content.container
+{
+	width: 80%;
+	background-color: #696969;
+}
+h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.3em;
+	margin-top: 0;
+	color: #000000
+}
+.title p {
+	font-size: 2em;
+	font-weight: bold;
+	margin-bottom: 40px;
+	color: #F5F5DC
+}
+@media (max-width: 767px) {
+	#collapsable-nav {
+	background-color: #800000;
+    }
 }
